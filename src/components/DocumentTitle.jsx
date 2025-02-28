@@ -7,3 +7,5 @@
 //     </Helmet>
 //   );
 // }
+
+export default DocumentTitle;
