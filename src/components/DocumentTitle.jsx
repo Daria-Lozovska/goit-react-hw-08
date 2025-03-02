@@ -1,11 +1,11 @@
-// import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
-// export default function DocumentTitle({ children }) {
-//   return (
-//     <Helmet>
-//       <title>{children}</title>
-//     </Helmet>
-//   );
-// }
+const DocumentTitle = ({ children }) => {
+  useEffect(() => {
+    document.title = children;
+  }, [children]);
+
+  return null;
+}
 
 export default DocumentTitle;
