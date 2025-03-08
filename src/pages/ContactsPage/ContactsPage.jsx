@@ -4,7 +4,7 @@ import {
   selectContacts,
   selectError,
   selectIsLoading,
-} from '../../redux/contacts/contactsSelectors';
+} from '../../../src/redux/contacts/contactsSelectors';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import ContactList from '../../components/ContactList/ContactList';
 import { useEffect } from 'react';
