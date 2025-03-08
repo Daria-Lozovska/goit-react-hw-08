@@ -2,7 +2,7 @@ import { Navigation } from '../Navigation/Navigation';
 import { UserMenu } from '../UserMenu/UserMenu';
 import { useSelector } from 'react-redux';
 import { AuthNav } from '../AuthNav/AuthNav';
-import { selectIsLoggedIn } from '../../redux/auth/authSelectors';
+import { selectIsLoggedIn } from '../../../src/redux/auth/authSelectors';
 import css from './AppBar.module.css';
 
 export const AppBar = () => {

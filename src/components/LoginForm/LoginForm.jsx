@@ -114,7 +114,7 @@
 // export default LoginForm;
 
 import { useDispatch } from 'react-redux';
-import { login } from '../../redux/auth/authOperations';
+import { login } from '../../../src/redux/auth/authOperations';
 import { useNavigate } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';

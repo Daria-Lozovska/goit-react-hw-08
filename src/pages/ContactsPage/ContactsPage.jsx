@@ -8,7 +8,7 @@ import {
 import ContactForm from '../../components/ContactForm/ContactForm';
 import ContactList from '../../components/ContactList/ContactList';
 import { useEffect } from 'react';
-import { fetchContacts } from '../../redux/contacts/contactsOperations';
+import { fetchContacts } from '../../../src/redux/contacts/contactsOperations';
 import Loader from '../../components/Loader/Loader';
 import SearchBox from '../../components/SearchBox/SearchBox';
 
