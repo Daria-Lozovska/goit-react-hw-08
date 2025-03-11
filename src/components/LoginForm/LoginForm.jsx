@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { login } from '../../../src/redux/auth/authOperations';
+import { login } from '../../../src/redux/auth/operations';
 import { useNavigate } from 'react-router-dom';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
