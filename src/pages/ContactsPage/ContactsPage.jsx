@@ -4,11 +4,11 @@ import {
   selectContacts,
   selectError,
   selectLoading,
-} from '../../../src/redux/contacts/contactsSelectors';
+} from '../../redux/contacts/selectors';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import ContactList from '../../components/ContactList/ContactList';
 import { useEffect } from 'react';
-import { fetchContacts } from '../../../src/redux/contacts/contactsOperations';
+import { fetchContacts } from '../../redux/contacts/operations';
 import Loader from '../../components/Loader/Loader';
 import SearchBox from '../../components/SearchBox/SearchBox';
 
