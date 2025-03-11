@@ -27,7 +27,6 @@ const ContactsPage = () => {
       <div>
         <ContactForm />
         {loading && !error && <Loader />}
-        {!loading && !error && contacts.length > 0 && <SearchBox />}
         {!loading && !error && contacts.length === 0 && (
           <h2 className={css.noContacts}>You have no contacts!</h2>
               )}
