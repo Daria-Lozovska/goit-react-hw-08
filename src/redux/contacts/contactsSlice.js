@@ -35,7 +35,6 @@ export const selectContacts = (state) => state.contacts.items;
 export const selectLoading = (state) => state.contacts.loading;
 export const selectError = (state) => state.contacts.error;
 
-// Мемоізований селектор
 export const selectFilteredContacts = createSelector(
     [selectContacts, (state) => state.filters.name],
     (contacts, filter) => {
@@ -45,4 +44,4 @@ export const selectFilteredContacts = createSelector(
     }
 );
 
-export default contactsSlice;
+export default contactsSlice.reducer;

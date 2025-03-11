@@ -26,13 +26,13 @@ const ContactForm = () => {
     return (
         <Formik initialValues={{ name: '', number: '' }} validationSchema={validationSchema} onSubmit={handleSubmit}>
             <Form className={styles.form}>
-                <label>Name <Field type="text" name="name" className={styles.input} /></label>
+                <label className={styles.label}>Name <Field type="text" name="name" className={styles.input} /></label>
                 <ErrorMessage name="name" component="div" className={styles.error} />
                 
-                <label>Number <Field type="text" name="number" className={styles.input} /></label>
+                <label className={styles.label}>Number <Field type="text" name="number" className={styles.input} /></label>
                 <ErrorMessage name="number" component="div" className={styles.error} />
 
-                <button type="submit">Add Contact</button>
+                <button type="submit" className={styles.button}>Add Contact</button>
             </Form>
         </Formik>
     );
